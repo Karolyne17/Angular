@@ -1,0 +1,10 @@
+<div class="user-list-container">
+    <div class="list-single-user" *ngFor="let user of users; index as i">
+        <a routerLink="/details/{{user.id}}">
+            <div class="user-list-img"><img src="{{ user.avatar }}"></div>
+            <div class="user-list-info">
+                <div class="user-list-pseudo">{{ user.pseudo }}</div>
+            </div>
+        </a>
+    </div>
+</div>

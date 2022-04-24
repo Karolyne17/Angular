@@ -1,0 +1,42 @@
+h1{
+    margin:50px;
+    text-align: center;
+}
+
+.article-container{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+    margin:50px 30px;
+}
+
+.article-section{
+    margin: 50px auto;
+    background-color:#5c6068;
+    padding:25px 15px;
+    box-shadow: 15px 15px 5px #2c2f33;
+    width : 23%;
+}
+
+.article-section a{
+    text-decoration: none;
+}
+
+.accueil-titre{
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom:5px;
+}
+.accueil-pseudo{
+    color:rgb(53, 52, 52);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom:20px;
+}
+
+.accueil-contenu{
+    color:rgb(205, 205, 205);
+    font-size: 1rem;
+}

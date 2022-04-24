@@ -1,0 +1,13 @@
+<div class="header">
+        <div class="header-sub-container" *ngIf="isConnected()==true; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock>
+            <a routerLink="accueil">Accueil</a>
+            <a routerLink="/users">Utilisateurs</a>
+            <a routerLink="add-article">Ajouter un article</a>
+            <div class="logout" (click)="deconnexion()"><img src="../../assets/logout.png" alt="logout"></div>
+        </ng-template>
+        <ng-template #elseBlock>
+            <a routerLink="login">Connexion</a>
+            <a routerLink="subscribe">Inscription</a>
+        </ng-template>
+</div>

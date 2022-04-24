@@ -1,0 +1,84 @@
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.article-detail-container{
+    margin:40px 40px 70px 40px;
+}
+
+.article-container{
+    margin-bottom: 70px;
+    background-color: rgb(70, 70, 70);
+    padding:30px;
+    border-radius: 30px;
+}
+
+.article-detail-titre{
+    margin-bottom:5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.article-detail-auteur{
+    font-weight: lighter;
+    color:rgb(157, 157, 157);
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.article-detail-commentaire{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.article-detail-commentaire-container{
+    margin-bottom:30px;
+}
+    
+.article-detail-com-user{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.article-detail-com-contenu{
+    margin-left:20px;
+    font-size: 1rem;
+}
+
+/* ------------- BUTTON ------------ */
+
+.up-del-container a{
+    margin:auto;
+    text-decoration: none;
+    padding:10px;
+    border: 1px solid #e1b741;
+    color:#e1b741;
+    font-size: 1rem;
+}
+
+.up-del-container a:hover{
+    background-color: #e1b741;
+    color:rgb(70, 70, 70);
+}
+
+.up-del-container button{
+    margin:auto;
+    margin-left: 20px;
+    text-decoration: none;
+    padding:10px;
+    border: 1px solid #e15e41;
+    color:#e15e41;
+    border-radius: 0;
+    background-color: rgb(70, 70, 70);
+    font-size: 1rem;
+}
+
+.up-del-container button:hover{
+    background-color: #e15e41;
+    color:rgb(70, 70, 70);
+    cursor: pointer;
+}
+
